@@ -3205,3 +3205,74 @@ summary:focus-visible {
     border-radius: 999px;
   }
 }
+/* Final neutral accent cleanup */
+
+.gallery-stage {
+  background: #ffffff !important;
+  background-image: none !important;
+  border-color: #dce5e8 !important;
+}
+
+/* Gallery 1 / 6 counter */
+.gallery-counter {
+  background: #ffffff !important;
+  color: var(--ink) !important;
+  border: 1px solid #4dccec !important;
+}
+
+/* Common, rare and secret labels */
+.rarity,
+.rarity-blue,
+.rarity-yellow,
+.rarity-coral,
+.rarity-dark {
+  background: #ffffff !important;
+  color: var(--ink) !important;
+  border: 1px solid #4dccec !important;
+}
+
+/* Recommendation labels */
+.related-image span {
+  background: #ffffff !important;
+  color: var(--ink) !important;
+  border: 1px solid #4dccec !important;
+}
+
+/* Quick-add plus buttons */
+.quick-add {
+  background: #ffffff !important;
+  color: var(--ink) !important;
+  border: 1px solid #4dccec !important;
+  box-shadow: none !important;
+}
+
+/* Write a review button */
+.reviews-header > button {
+  background: #ffffff !important;
+  color: var(--ink) !important;
+  border: 1px solid #4dccec !important;
+  box-shadow: none !important;
+}
+
+/* Just arrived and other top labels */
+.pill-blue,
+.pill-yellow {
+  background: #ffffff !important;
+  color: var(--ink) !important;
+  border: 1px solid #4dccec !important;
+}
+
+/* Purchase step numbers */
+.step-number,
+.purchase-step:nth-child(2) .step-number {
+  background: #ffffff !important;
+  color: var(--ink) !important;
+  border: 1px solid #4dccec !important;
+}
+
+/* Prevent blue returning on hover */
+.quick-add:hover,
+.reviews-header > button:hover {
+  background: #f7fafb !important;
+  color: var(--ink) !important;
+}
