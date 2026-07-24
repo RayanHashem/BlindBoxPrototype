@@ -13,7 +13,7 @@ const bricolage = Bricolage_Grotesque({
 });
 
 export const metadata: Metadata = {
-  title: "Tiny Wonders | Street Party Series",
+  title: "Blind Box Prototype",
   description: "Interactive blind-box product experience concept for AMB Group.",
   other: {
     "codex-preview": "development",
